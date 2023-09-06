@@ -5,4 +5,5 @@ Aplicação desenvolvida utilizando Vue 3, em modo 'Options' API, na build  'ES 
 Ambas tecnologias são entregues por meio de CDN.
 
 # Setup
+### 1- Modifique a variável 'supabase' em ```ProjetoPizzaria/app_loja/app_loja_JS/app_loja_components```
 
