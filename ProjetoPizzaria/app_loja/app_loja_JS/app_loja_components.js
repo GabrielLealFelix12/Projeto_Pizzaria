@@ -2,7 +2,6 @@
 
 import { createClient } from 'supabase'
 export const supabase = createClient("https://<project>.supabase.co", "<your-anon-key>")
-//createClient("https://<project>.supabase.co", "<your-anon-key>")
 
 
 const css_searchbar = {style:"border: none; border-radius: 2px"};
