@@ -1,0 +1,18 @@
+
+-> copy and paste the postgree queries on your SQL editor,
+then click on 'run'/ Copie e cole os comandos postgree no 
+editor SQL e depois aperte 'run' 
+
+
+
+/function - filterd_produtos_withchars
+
+*ENABLE THE 'Unaccent' EXTENSION FOR THIS TO WORK PROPERLY
+/HABILITE A EXTENSÃO 'Unaccent' para que o comando salve e 
+funcione corretamente*
+
+
+create function filterd_produtos_withchars(nomeQ varchar, catQ text) returns setof produto as $$
+select * from produto where unaccent(nome) ~* unaccent(nomeQ) and categoria=catQ;
+$$ 
+language sql ;
