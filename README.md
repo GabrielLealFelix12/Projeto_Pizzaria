@@ -8,6 +8,5 @@ Ambas tecnologias são entregues por meio de CDN.
 ### 1. Modifique a variável 'supabase' em ```ProjetoPizzaria/app_loja/app_loja_JS/app_loja_components.js``` para que esta contenha a sua key e o link do seu projeto do Supabase;
 ### 2. Siga as instruções presentes nos documentos ```supabase_functions_forfetch.txt``` e  ```supabase_table_creation.txt``` para que a aplicação funcione corretamente.
 <br/>
-Você checar a versão demonstração logo abaixo.
 
 
