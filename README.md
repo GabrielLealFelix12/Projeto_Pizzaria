@@ -11,6 +11,3 @@ Ambas tecnologias são entregues por meio de CDN.
 Você checar a versão demonstração logo abaixo.
 
 
-# Nota: 
-A versão demonstração conta com uma aplicação extra, não presente neste repositório mas que complementa este front-end: <br/>
-https://meuprojeto2023.000webhostapp.com/ProjetoPizzaria/
